@@ -42,10 +42,8 @@
 #include <name.hpp>                                             // NOLINT
 #include <ua.hpp>                                               // NOLINT
 #include <xref.hpp>                                             // NOLINT
-#if IDP_INTERFACE_VERSION < 900
 #include <enum.hpp>                                             // NOLINT
 #include <struct.hpp>                                           // NOLINT
-#endif
 #include "third_party/zynamics/binexport/ida/end_idasdk.inc"    // NOLINT
 // clang-format on
 
