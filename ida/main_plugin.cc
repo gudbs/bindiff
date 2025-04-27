@@ -151,6 +151,7 @@ bool CheckHaveIdbWithMessage() {
   return true;
 }
 
+
 bool CheckHaveResultsWithMessage() {
   if (!Plugin::instance()->results()) {
     info("AUTOHIDE NONE\nPlease perform a diff first.");
